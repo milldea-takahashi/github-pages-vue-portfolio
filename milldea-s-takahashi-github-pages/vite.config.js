@@ -5,9 +5,8 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [
-    vue(),
-  ],
+  base: '/github-pages-vue-portfolio/',
+  plugins: [vue()],
   server: {
     host: true,
     port: 8080,
