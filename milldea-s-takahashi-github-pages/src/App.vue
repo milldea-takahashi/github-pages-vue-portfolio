@@ -1,6 +1,12 @@
 <template>
-  <div>こんにちは</div>
+    <Top/>
 </template>
+<script>
+    import Top from "./components/top.vue";
+    export default{
+        components:{
+            Top
+    }
+  }
+</script>
 
-<style scoped>
-</style>
